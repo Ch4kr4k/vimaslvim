@@ -316,7 +316,7 @@ noremap <silent> <C-Right> :vertical resize -3<CR>
 noremap <silent> <C-Up> :resize +3<CR>
 noremap <silent> <C-Down> :resize -3<CR>
 noremap <silent> <C-q> :q! <CR>
-noremap <silent> <C-s> :w! <CR>
+noremap <silent> <C-s> :w <CR>
 " Change 2 split windows from vert to horiz or horiz to vert
 map <Leader>th <C-w>t<C-w>H
 map <Leader>tk <C-w>t<C-w>K
@@ -524,7 +524,17 @@ let g:which_key_map.s = {
       \ 'name' : '+search' ,
       \ '/' : [':History'  ,'history'],
       \ }
-
+let g:which_key_map.f = {
+      \ 'name' : 'FilesCmd',
+      \ 'f' : [':Files' , 'files'],
+      \ 'g' : [':FZF' , 'FZF'],
+      \ 'r' : [':Rg' , 'ripgrep'],
+      \}
+let g:which_key_map.w = {
+      \'name' : 'panes',
+      \'v' : ['<C-w>v' , 'vertical'],
+      \'h' : ['<C-w>s','horizontal'],
+      \}
 nnoremap <silent> <leader>      :<c-u>WhichKey '<Space>'<CR>
 nnoremap <silent> <localleader> :<c-u>WhichKey  ','<CR>
 vnoremap <silent> <leader> :<c-u>WhichKeyVisual '<Space>'<CR>
