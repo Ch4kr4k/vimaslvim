@@ -33,3 +33,6 @@ for examples of .toml check dein.vim github page
 
 - installation of config
 
+		rm -rf ~/.vimrc
+		curl -fLo ~/ws/lolvim --create-dirs \
+   			https://raw.githubusercontent.com/BL4CK-R34P3R/vimaslvim/main/.vimrc
