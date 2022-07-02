@@ -53,7 +53,7 @@ for pretier installation follow [prettier](https://prettier.io/docs/en/install.h
 
 		rm -rf ~/.vimrc
 		curl -fLo ~/.vimrc --create-dirs \
-   			https://raw.githubusercontent.com/BL4CK-R34P3R/vimaslvim/main/.vimrc
+   			https://raw.githubusercontent.com/BL4CK-R34P3R/vim/main/.vimrc
 
 ---
 
