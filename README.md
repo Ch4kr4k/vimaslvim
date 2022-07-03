@@ -1,5 +1,9 @@
 # Making Vim act like Lvim and Vscode Ide from scratch
 for those who want lvim but vim to much that they can't shift to nvim/lvim
+### Screenshots
+![vim1](./vim1.png)
+![vim2](./vim2.png)
+![vim3](./vim3.png)
 ### Installing Pre-Dependencies
 
 - install Vundle 
