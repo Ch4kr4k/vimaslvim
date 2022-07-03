@@ -66,7 +66,7 @@ after running vim do:
 
 and to install lsp server using coc do:
 
-		:CocInstall coc-servername do:
+		:CocInstall coc-servername
 
 lsp installation using Lsp
 		
