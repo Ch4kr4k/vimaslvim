@@ -12,7 +12,7 @@ for those who want lvim but they love vim to much that they can't shift to nvim/
 
 - install Plug
 
-`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
 
 - install dein
