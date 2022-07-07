@@ -4,6 +4,11 @@ for those who want lvim but they love vim to much that they can't shift to nvim/
 ![vim1](./vim1.png)
 ![vim2](./vim2.png)
 ![vim3](./vim3.png)
+### Installing Nerd fonts
+	wget https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/SpaceMono/Regular/complete/Space%20Mono%20Nerd%20Font%20Complete%20Mono.ttf?raw=true
+	
+	mv mv Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf\?raw\=true
+	fc-cache -v
 ### Installing Pre-Dependencies
 
 - install Vundle 
