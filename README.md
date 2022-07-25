@@ -7,8 +7,8 @@ for those who want lvim but they love vim to much that they can't shift to nvim/
 ### Installing Nerd fonts
 	wget https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/SpaceMono/Regular/complete/Space%20Mono%20Nerd%20Font%20Complete%20Mono.ttf?raw=true
 	
-	mv Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf\?raw\=true
-	fc-cache -v
+	sudo mv Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf\?raw\=true \usr\share\fonts\nerds.tff
+	sudo fc-cache -v
 ### Installing Pre-Dependencies
 
 - install Vundle 
@@ -54,9 +54,17 @@ for pretier installation follow [prettier](https://prettier.io/docs/en/install.h
 
 - install other dependencies
 
-`for debian based for other distro check their package manager`
+> for debian based for other distro check their package manager`
 		
-		sudo apt install bat fzf ripgrep universal-ctag fd-find shellcheck codespell flake8
+		sudo apt install bat fzf ripgrep universal-ctags fd-find shellcheck codespell flake8
+		
+> for arch 
+
+		sudo pacman -S bat fzf ripgrep universal-ctags fd-find shellcheck codespell flake8 --noconfirm
+
+> for rethat based
+
+		sudo dnf install bat fzf ripgrep universal-ctags fd-find shellcheck codespell flake8
 
 - installation of config
 
