@@ -14,8 +14,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 curl -fLo ~/.vim/rc/dein.toml --create-dirs \
   https://raw.githubusercontent.com/BL4CK-R34P3R/vimaslvim/main/dein.toml
 
-curl -fLo ~/.vim/rc/dein_lazy.toml --create-dirs \
-  https://github.com/BL4CK-R34P3R/vimaslvim/blob/main/dein_lazy.toml
+touch ~/.vim/rc/dein_lazy.toml
 
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
 
