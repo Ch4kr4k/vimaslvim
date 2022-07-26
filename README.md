@@ -9,7 +9,32 @@ for those who want lvim but they love vim to much that they can't shift to nvim/
 	
 	sudo mv Space\ Mono\ Nerd\ Font\ Complete\ Mono.ttf\?raw\=true \usr\share\fonts\nerds.tff
 	sudo fc-cache -v
-### Installing Pre-Dependencies
+
+### You can install this using a script below automatically or configure yourself manually by follow the instructions below
+
+> just copy paste this below for automatic installation
+
+```bash
+bash <(curl -s https://raw.githubusercontent.com/BL4CK-R34P3R/vimaslvim/main/install.sh)
+```
+
+#### dependencies
+
+> for debian based for other distro check their package manager`
+		
+		sudo apt install bat fzf ripgrep universal-ctags fd-find shellcheck codespell flake8
+		
+> for arch 
+
+		sudo pacman -S bat fzf ripgrep universal-ctags fd shellcheck codespell flake8 prettier --noconfirm
+		
+		pip install pytnvim black
+
+> for rethat based
+
+		sudo dnf install bat fzf ripgrep universal-ctags fd-find shellcheck codespell flake8
+
+### Manual installation
 
 - install Vundle 
 
@@ -51,20 +76,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 		cargo install stylua --features luau
 
 for pretier installation follow [prettier](https://prettier.io/docs/en/install.html)
-
-- install other dependencies
-
-> for debian based for other distro check their package manager`
-		
-		sudo apt install bat fzf ripgrep universal-ctags fd-find shellcheck codespell flake8
-		
-> for arch 
-
-		sudo pacman -S bat fzf ripgrep universal-ctags fd-find shellcheck codespell flake8 --noconfirm
-
-> for rethat based
-
-		sudo dnf install bat fzf ripgrep universal-ctags fd-find shellcheck codespell flake8
 
 - installation of config
 
