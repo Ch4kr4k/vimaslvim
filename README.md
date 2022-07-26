@@ -12,6 +12,8 @@ for those who want lvim but they love vim to much that they can't shift to nvim/
 
 ### You can install this using a script below automatically or configure yourself manually by follow the instructions below
 
+### Automatic installation
+
 > just copy paste this below for automatic installation
 
 ```bash
