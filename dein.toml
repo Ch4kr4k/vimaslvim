@@ -62,3 +62,5 @@ repo ='liuchengxu/vim-which-key'
 repo = 'github/copilot.vim'
 [[plugins]] 
 repo ='ap/vim-css-color'
+[[plugins]]
+repo ='mhinz/vim-startify'
