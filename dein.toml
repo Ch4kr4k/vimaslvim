@@ -1,0 +1,82 @@
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+[[plugins]] 
+repo = 'VundleVim/Vundle.vim'
+[[plugins]] 
+repo = 'tpope/vim-fugitive'
+[[plugins]] 
+repo = 'sjl/gundo.vim'
+[[plugins]] 
+repo = 'godlygeek/tabular'
+[[plugins]] 
+repo = 'bling/vim-airline'
+[[plugins]] 
+repo = 'vim-airline/vim-airline-themes'
+[[plugins]] 
+repo = 'altercation/vim-colors-solarized'
+[[plugins]] 
+repo = 'scrooloose/nerdtree'
+[[plugins]] 
+repo = 'TomNomNom/xoria256.vim'
+[[plugins]] 
+repo = 'fatih/vim-go'
+[[plugins]] 
+repo = 'rust-lang/rust.vim'
+[[plugins]] 
+repo = 'ryanoasis/vim-devicons'
+[[plugins]] 
+repo = 'jiangmiao/auto-pairs'
+[[plugins]] 
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+[[plugins]] 
+ repo = 'Shougo/denite.nvim'
+[[plugins]] 
+repo = 'prabirshrestha/vim-lsp'
+[[plugins]] 
+repo = 'mattn/vim-lsp-settings'
+[[plugins]] 
+repo = 'ghifarit53/tokyonight-vim'
+[[plugins]] 
+repo = 'prettier/vim-prettier'
+[[plugins]] 
+repo ='HerringtonDarkholme/yats.vim'
+[[plugins]] 
+repo = 'airblade/vim-gitgutter'
+[[plugins]] 
+repo = 'junegunn/fzf'
+build = './install'
+[[plugins]] 
+repo = 'junegunn/fzf.vim'
+[[plugins]] 
+repo = 'airblade/vim-rooter'
+[[plugins]] 
+repo = 'mattn/emmet-vim'
+[[plugins]] 
+repo = 'vim-syntastic/syntastic'
+[[plugins]] 
+repo = 'tpope/vim-commentary'
+[[plugins]] 
+repo ='liuchengxu/vim-which-key'
+[[plugins]] 
+repo = 'github/copilot.vim'
+[[plugins]] 
+repo ='ap/vim-css-color'
+[[plugins]]
+repo ='mhinz/vim-startify'
+# [[plugins]]
+# repo ='itchyny/lightline.vim'
+[[plugins]]
+repo ='cdelledonne/vim-cmake'
+[[plugins]]
+repo ='joshdick/onedark.vim'
+[[plugins]]
+repo = 'sonph/onehalf'
+[[plugins]]
+repo = 'rakr/vim-one'
+[[plugins]]
+repo = 'lilydjwg/colorizer'
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+[[plugins]]
+repo = 'voldikss/vim-floaterm'
