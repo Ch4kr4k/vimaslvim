@@ -68,3 +68,5 @@ repo ='mhinz/vim-startify'
 # repo ='itchyny/lightline.vim'
 [[plugins]]
 repo ='cdelledonne/vim-cmake'
+[[plugins]]
+repo = 'lilydjwg/colorizer'
