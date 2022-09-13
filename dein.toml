@@ -70,3 +70,5 @@ repo ='mhinz/vim-startify'
 repo ='cdelledonne/vim-cmake'
 [[plugins]]
 repo = 'lilydjwg/colorizer'
+[[plugins]]
+repo = 'Yggdroot/indentLine'
