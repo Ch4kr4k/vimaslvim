@@ -6,6 +6,9 @@ rm -rf ~/.vim
 
 curl -fLo ~/.vimrc --create-dirs \
   https://raw.githubusercontent.com/BL4CK-R34P3R/vimaslvim/main/.vimrc
+  
+curl -fLo ~/.vim/colors/NeoSolarized.vim --create-dirs \
+  https://raw.githubusercontent.com/BL4CK-R34P3R/vimaslvim/main/NeoSolarized.vim
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
