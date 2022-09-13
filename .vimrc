@@ -554,5 +554,6 @@ set termguicolors
 let g:tokyonight_style = 'storm' " available: night, storm
 let g:tokyonight_enable_italic = 1
 let g:airline_theme = "tokyonight"
+set background = dark
 colorscheme tokyonight
 let &t_ut=''
