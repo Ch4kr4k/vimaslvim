@@ -66,8 +66,8 @@ repo ='ap/vim-css-color'
 repo ='mhinz/vim-startify'
 # [[plugins]]
 # repo ='itchyny/lightline.vim'
-[[plugins]]
-repo ='cdelledonne/vim-cmake'
+#[[plugins]]
+#repo ='cdelledonne/vim-cmake'
 [[plugins]]
 repo ='joshdick/onedark.vim'
 [[plugins]]
