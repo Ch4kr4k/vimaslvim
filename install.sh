@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 rm -rf ~/vimrc
-rm -rf ~/.vim
+
 
 
 
@@ -19,8 +19,9 @@ curl -fLo ~/.vim/rc/dein.toml --create-dirs \
 
 touch ~/.vim/rc/dein_lazy.toml
 
-curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+curl https://raw.githubusercontent.com/Ch4kr4k/vimaslvim/main/installer.sh > installer.sh
+chmod +x ./installer.sh
+sh ./installer.sh
+rm -rf ~/.vim
 
-  sh ./installer.sh ~/.vim/dein
-
-  vim
+vim
