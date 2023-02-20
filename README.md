@@ -17,7 +17,7 @@ for those who want lvim but they love vim to much that they can't shift to nvim/
 > just copy paste this below for automatic installation
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/BL4CK-R34P3R/vimaslvim/main/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/Ch4kr4k/vimaslvim/main/install.sh)
 ```
 
 #### dependencies
